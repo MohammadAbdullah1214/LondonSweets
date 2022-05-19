@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBS | Bakery</title>
+    <link rel="icon" href="images/topimg.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid p-0 my-nav-clr"> 
+        <div class="logo">
+         </div>
+         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+          <div class="container">
+            <a href="#" class="navbar-brand"><img src="images/Logo2.png" width="90px" alt="">London Sweets & Bakers</a>
+              <button class="navbar-toggler" data-target="#mynav" data-toggle="collapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link ">Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">About Us</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a href=""  id="drop" class="nav-link dropdown-toggle font-weight-bold" data-toggle="dropdown">Products</a>
+                      <div class="dropdown-menu" id="drop">
+                          <a href="pro_sweets.html" class="dropdown-item ">Sweets</a>
+                          <a href="#" class="dropdown-item font-weight-bold">Bakery</a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item">
+                          <a href="gifthampers.html" class="nav-link">Gift Hampers</a>
+                  </li>
+
+                  <li class="nav-item">
+                          <a href="contact.html" class="nav-link">Contact us</a>
+                  </li>
+              </ul>
+              </div>
+          </div>
+      </nav>
+    </div>
+
+
+    <div class="container mt-2 mb-5">
+
+        <h3 class="text-center text-muted mt-5" style="font-family: 'Lobster', cursive;">Bakery Goodness</h3>
+        <hr  style="width: 200px; height: 1px ; background: black ; margin-bottom: 20px;">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Cheesecake</h2>
+                <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 25px;">Made fresh everyday with london's most expert bakers.</p>
+                <p style="font-family: 'Lobster', cursive;">Price: &#36;15 <br> Weight: 200 gram</p>
+                <button id="cheese1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+                <button id="cheese2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+                <p style="display: none;" id="cheesecake_nutrition">Nutritional Value: <br> Calories: 401 <br> 43% Total Fat 28g. <br> 60% Saturated Fat 12g <br> 23% Cholesterol 69mg <br> 23% Sodium 548mg <br> 3% Potassium 113mg <br> 11% Total Carbohydrates 32g</p>
+                <p style="display: none;" id="cheesecake_ingredients">Ingredients: <br> 32 oz cream cheese <br> 1 cup sugar <br> ⅔ cups sour cream (160g) <br> 1 ½ teaspoons vanilla extract <br> ⅛ teaspoon salt <br> 4 large eggs</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <img class="d-block w-100" style="height: 350px ; border-radius: 30px;" src="images/cheesecake.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Nutella Waffles</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 25px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;10 <br> Weight: 150 gram</p>
+              <button id="waffles1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="waffles2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p id="waffle_nutrition" style="display: none;">
+                Nutritional Value: <br> Calories: 218 <br> 17% Total Fat 11g <br> 11% Saturated Fat 2.1g <br> 17% Cholesterol 52mg <br> 16% Sodium 383mg <br> 3% Potassium 119mg <br> 8% Total Carbohydrates 25g
+              </p>
+              <p id="waffle_ingredients" style="display: none;">Ingredients: <br> 1 cup all-purpose flour <br> 2 tablespoons sugar <br> 1 teaspoon baking powder <br> 1/4 teaspoon salt <br> 1 cup milk <br>2 large eggs <br>4 tablespoons (1/2 stick) unsalted butter, melted <br> Nutella, as desired, for serving</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/waffels.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Strawberry Pie</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 25px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;20 <br> Weight: 200 gram</p>
+              <button id="pie1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="pie2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p id="strawberry_nutrition" style="display: none;">Nutritional Value: <br> Calories: 231.7 <br> Sodium:	136.9 mg <br> Potassium: 191.3 mg <br> Total Carbohydrate: 39.6 g <br> Dietary Fiber: 2.5 g</p>
+              <p style="display: none;" id="strawberry_ingredients">Ingredients: <br> 1 cup mashed strawberries <br> ¾ cup water, or more if needed <br> ¾ cup white sugar <br> 3 tablespoons cornstarch <br> 1 tablespoon lemon juice <br> ¼ teaspoon salt <br> 4 cups sliced strawberries</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/strawberry pie.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Lemon Sponge Cake</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 25px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;9 <br> Weight: 90 gram</p>
+              <button id="lemon1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="lemon2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p style="display: none;" id="lemon_nutrition">Nutritional Value: <br> Calories: 135 <br> 23g total carbs <br> 23g net carbs <br> 3.7g fat <br> 0.6g protein</p>
+              <p style="display: none;" id="lemon_ingredients">Ingredients: <br> 225g softened butter <br> 225g golden caster sugar <br> 4 large eggs <br> ½ lemon, zested <br> 1 tsp vanilla extract <br> 225g self-raising flour <br> splash of milk</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/Lemon cake.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Pancakes</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 25px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;16 <br> Weight: 170 gram</p>
+              <button id="pancake1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="pancake2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p id="pancake_nutrition" style="display: none;">Nutritional Value: <br> Total Fat: 2.9g <br> Saturated Fat: 1g <br> Trans Fat: 0g <br> Cholesterol: 6.6mg <br> Total Carbs: 32.8g <br> Dietary Fiber: 1.3g <br> Sugars: 7.2g <br> Protein: 4.6g</p>
+              <p id="pancake_ingredients" style="display: none;">Ingredients: <br> 1 cup of sugar <br> 1 teaspoon salt <br> 1 teaspoon baking Powder <br> A knob of butter <br> 1 cup of milk <br> 2 eggs</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/pancakes.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="bg-dark">
+      <div class="topheader">
+        <marquee marquee width="100%" height="30px" style="color: white" behavior="alternate">
+            <p>LONDON SWEETS & BAKERS SINCE 1996</p>
+        </marquee>
+      </div>
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-3 col-sm-6 col-12 navigate">
+               <h4 class="text-light mt-3">Navigate</h4>
+  
+               <ul >
+                 <li>
+                   <a href="index.html">Home</a>
+                 </li>
+  
+                 <li>
+                  <a href="about.html">About Us</a>
+                </li>
+  
+                <li>
+                  <a href="#">Bakery</a>
+                </li>
+  
+                <li>
+                  <a href="pro_sweets.html">Sweets</a>
+                </li>
+  
+                <li>
+                  <a href="gifthampers.html">Gift Hampers</a>
+                </li>
+  
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+               </ul>
+            </div>
+  
+            <div class="col-md-3 col-sm-6 col-12 support">
+              <h4 class="text-light mt-3">Support</h4>
+              <ul >
+                <li>
+                  <a href="">Call Us</a>
+                </li>
+  
+                <li>
+                  <a href = "mailto:m.abdullah110@outlook.com">E-mail Us</a>
+               </li>
+  
+               <li>
+                 <a href="contact.html">Visit Us</a>
+               </li>
+  
+               <li>
+                 <a href="contact.html">Feedback</a>
+               </li>
+  
+               <li>
+                 <a href="">FAQ's</a>
+               </li>
+  
+              </ul>
+            </div>
+  
+            <div class="col-md-3 col-sm-6 col-12">
+              <h6 class="text-light mt-3">Copyright by London Sweets & Bakers &copy;</h6>
+            </div>
+  
+            <div class="col-md-3 col-sm-6 col-12">
+              <div class="social">
+                <h4 class="text-light mt-3">Follow us</h4>
+                <a href="https://www.facebook.com/LondonBakersOfficial"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/signup"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+  
+          </div>
+        </div> 
+      </footer>
+
+
+
+</body>
+  <script>
+    $(function(){
+      $("#waffles1").click(function(){
+        $("#waffle_nutrition").toggle(1000);
+      })
+
+      $("#waffles2").click(function(){
+        $("#waffle_ingredients").toggle(1000);
+      })
+
+      $("#cheese1").click(function(){
+        $("#cheesecake_nutrition").toggle(1000);
+      })
+
+      $("#cheese2").click(function(){
+        $("#cheesecake_ingredients").toggle(1000);
+      })
+
+      $("#pie1").click(function(){
+        $("#strawberry_nutrition").toggle(1000);
+      })
+
+      $("#pie2").click(function(){
+        $("#strawberry_ingredients").toggle(1000);
+      })
+
+      $("#pancake1").click(function(){
+        $("#pancake_nutrition").toggle(1000);
+      })
+
+      $("#pancake2").click(function(){
+        $("#pancake_ingredients").toggle(1000);
+      })
+
+      $("#lemon1").click(function(){
+        $("#lemon_nutrition").toggle(1000);
+      })
+
+      $("#lemon2").click(function(){
+        $("#lemon_ingredients").toggle(1000);
+      })
+    });
+  </script>
+</html>

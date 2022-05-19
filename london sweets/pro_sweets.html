@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBS | Sweets</title>
+    <link rel="icon" href="images/topimg.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid p-0 my-nav-clr"> 
+        <div class="logo">
+         </div>
+         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+          <div class="container">
+            <a href="#" class="navbar-brand"><img src="images/Logo2.png" width="90px" alt="">London Sweets & Bakers</a>
+              <button class="navbar-toggler" data-target="#mynav" data-toggle="collapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link "> Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">About Us</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a href=""  id="drop" class="nav-link dropdown-toggle font-weight-bold" data-toggle="dropdown">Products</a>
+                      <div class="dropdown-menu" id="drop">
+                          <a href="#" class="dropdown-item font-weight-bold">Sweets</a>
+                          <a href="pro_bakery.html" class="dropdown-item ">Bakery</a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item">
+                          <a href="gifthampers.html" class="nav-link">Gift Hampers</a>
+                  </li>
+
+                  <li class="nav-item">
+                          <a href="contact.html" class="nav-link">Contact us</a>
+                  </li>
+              </ul>
+              </div>
+          </div>
+      </nav>
+    </div>
+
+    <div class="container mt-2 mb-5">
+
+        <h3 class="text-center mt-5" style="font-family: 'Lobster', cursive; font-size: 40px;">Hot offers!</h3>
+        <hr  style="width: 200px; height: 1px ; background: black ; margin-bottom: 30px;">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Mint-Chocolate Brownie</h2>
+                <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 20px;">Made fresh everyday with london's most expert bakers.</p>
+                <p style="font-family: 'Lobster', cursive;">Price: &#36;10 <br> Weight: 150 gram</p>
+                <button id="mintbrown1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+                <button id="mintbrown2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+                <p style="display: none;" id="mintbrown_nutrition">Nutrition: <br> Calories: 233 <br> 23% Total Fat 15g <br> 19% Saturated Fat 3.7g <br> 12% Cholesterol 37mg <br> 7% Sodium 172mg <br> 3% Potassium 88mg <br> 8% Total Carbohydrates 25g</p>
+                <p style="display: none;" id="mintbrown_ingredients">Ingredients: <br> 1 cup (230g) unsalted butter <br> 8 ounces semi-sweet chocolate, coarsely chopped <br> 1 and 1/2 cups (300g) granulated sugar <br> 1/2 cup (100g) packed light brown sugar <br> 4 large eggs, at room temperature <br> 2 teaspoons pure vanilla extract <br> 1/2 teaspoon salt <br> 1/2 cup + 3 Tablespoons (86g) all-purpose flour <br> 1/4 cup (21g) natural unsweetened cocoa powder</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <img class="d-block w-100" style="height: 350px ; border-radius: 30px;" src="images/mintbrownie.jpeg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Cinnamon Rolls</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 20px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;10 <br> Weight: 150 gram</p>
+              <button id="roll1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="roll2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p style="display: none;" id="roll_nutrition">Nutrition: <br> Calories: 290 <br> 15% Total Fat 9.9g <br> 14% Saturated Fat 2.9g <br> 0% Cholesterol 0mg <br> 29% Sodium 686mg <br> 16% Total Carbohydrates 47g <br> 5% Dietary Fiber 1.2g</p>
+              <p style="display: none;" id="roll_ingredients">Ingredients: <br> ¾ cup warm milk <br> 2 ¼ teaspoons active yeast <br> ¼ cup granulated sugar <br> 1 egg plus 1 egg yolk, at room temperature <br> ¼ cup butter, melted <br> 3 cups bread flour <br> 3/4 teaspoon salt <br> 2/3 cup dark brown sugar <br> 1 ½ tablespoons ground cinnamon <br> ¼ cup butter, softened <br> 4 oz cream cheese, softened <br> 3 tablespoons butter, softened <br> ¾ cup powdered sugar <br> ½ teaspoon vanilla extract</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/project/cinnamonrools.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Macaroons</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 20px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;10 <br> Weight: 150 gram</p>
+              <button id="mac1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="mac2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p id="macaroon_nutrition" style="display: none;">Nutrition: <br> Fiber. 1 g <br> Total Carbs: 22 g <br> Protein. 3 g <br> Fats: 5 g</p>
+              <p id="macaroon_ingredients" style="display: none;">Ingredients: <br> 1 ¾ cups powdered sugar(210 g) <br> 1 cup almond flour(95 g) <br> 1 teaspoon salt <br> 3 egg whites, at room temperature <br> ¼ cup granulated sugar(50 g) <br> ½ teaspoon vanilla extract <br> 2 drops pink gel food coloring
+              </p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/macarons.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Pies</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 20px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;10 <br> Weight: 150 gram</p>
+              <button id="pie2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="pie1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p id="pie_nutrition" style="display:none ;">Nutrition: <br> Calories 296 <br> Fat 14g <br> 0% Cholesterol 0mg <br> 10% Sodium 251mg <br> 2% Potassium 81mg <br> 14% Total Carbohydrates 43g
+              </p>
+              <p id="pie_ingredients" style="display:none ;">Ingredients: <br> 1 recipe for double pie crust <br> 2 1/4 lbs Granny Smith Apples <br> 1 1/2 tsp cinnamon <br> 8 Tbsp unsalted butter <br> 3 Tbsp  all-purpose flour <br> 1/4 cup water <br> 1 cup granulated sugar <br> 1 egg , + 1 Tbsp water, for egg wash
+              </p>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/project/pies1.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <h2 style="margin-top: 100px ; font-family: 'Lobster', cursive;">Peanut Butter Biscuits</h2>
+              <p class="text-muted" style="font-family: 'Lobster', cursive; font-size: 20px;">Made fresh everyday with london's most expert bakers.</p>
+              <p style="font-family: 'Lobster', cursive;">Price: &#36;10 <br> Weight: 150 gram</p>
+              <button id="peanut1" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Nutrition</button>
+              <button id="peanut2" class="btn btn-outline-success mb-2" style="border-radius: 50px;">See Ingredients</button>
+              <p id="peanut_nutrition" style="display: none;">Nutrition: <br> Calories 145 <br> Fat 7.8g <br> 7% Cholesterol 21mg <br>  5% Sodium 128mg <br> 2% Potassium 66mg <br> 6% Total Carbohydrates 17g</p>
+              <p id="peanut_ingredients" style="display: none;">Ingredients: <br> 1 1/2 cup all-purpose flour 180g <br> 1/2 cup butter unsalted <br> 1 cup peanut butter 250g <br> 1/2 cup brown sugar 100g  <br> 1/2 cup sugar 100g <br> 1 tsp vanilla extract 5mL <br> 1 egg large, room temp <br> 3/4 tsp baking powder 3g
+              </p>
+
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <img class="d-block w-100" style="height: 350px ; border-radius: 30px ; margin-top: 50px; " src="images/project/pranut butter.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="bg-dark">
+      <div class="topheader">
+        <marquee marquee width="100%" height="30px" style="color: white" behavior="alternate">
+            <p>LONDON SWEETS & BAKERS SINCE 1996</p>
+        </marquee>
+      </div>
+
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-3 col-sm-6 col-12 navigate">
+               <h4 class="text-light mt-3">Navigate</h4>
+  
+               <ul >
+                 <li>
+                   <a href="index.html">Home</a>
+                 </li>
+  
+                 <li>
+                  <a href="about.html">About Us</a>
+                </li>
+  
+                <li>
+                  <a href="pro_bakery.html">Bakery</a>
+                </li>
+  
+                <li>
+                  <a href="#">Sweets</a>
+                </li>
+  
+                <li>
+                  <a href="gifthampers.html">Gift Hampers</a>
+                </li>
+  
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+               </ul>
+            </div>
+  
+            <div class="col-md-3 col-sm-6 col-12 support">
+              <h4 class="text-light mt-3">Support</h4>
+              <ul >
+                <li>
+                  <a href="">Call Us</a>
+                </li>
+  
+                <li>
+                  <a href = "mailto:m.abdullah110@outlook.com">E-mail Us</a>
+               </li>
+  
+               <li>
+                 <a href="contact.html">Visit Us</a>
+               </li>
+  
+               <li>
+                 <a href="contact.html">Feedback</a>
+               </li>
+  
+               <li>
+                 <a href="">FAQ's</a>
+               </li>
+  
+              </ul>
+            </div>
+  
+            <div class="col-md-3 col-sm-6 col-12">
+              <h6 class="text-light mt-3">Copyright by London Sweets & Bakers &copy;</h6>
+            </div>
+  
+            <div class="col-md-3 col-sm-6 col-12">
+              <div class="social">
+                <h4 class="text-light mt-3">Follow us</h4>
+                <a href="https://www.facebook.com/LondonBakersOfficial"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/signup"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+  
+          </div>
+        </div> 
+      </footer>
+</body>
+<script>
+  $(function(){
+    $("#mintbrown1").click(function(){
+        $("#mintbrown_nutrition").toggle(1000);
+      })
+
+    $("#mintbrown2").click(function(){
+        $("#mintbrown_ingredients").toggle(1000);
+      })
+
+    $("#roll1").click(function(){
+        $("#roll_nutrition").toggle(1000);
+      })
+
+    $("#roll2").click(function(){
+        $("#roll_ingredients").toggle(1000);
+      })
+
+    $("#mac1").click(function(){
+        $("#macaroon_nutrition").toggle(1000);
+      })
+
+    $("#mac2").click(function(){
+        $("#macaroon_ingredients").toggle(1000);
+      })
+
+    $("#pie1").click(function(){
+        $("#pie_nutrition").toggle(1000);
+      })
+
+    $("#pie2").click(function(){
+        $("#pie_ingredients").toggle(1000);
+      })
+
+    $("#peanut1").click(function(){
+        $("#peanut_nutrition").toggle(1000);
+      })
+
+    $("#peanut2").click(function(){
+        $("#peanut_ingredients").toggle(1000);
+      })
+  });
+</script>
+</html>
